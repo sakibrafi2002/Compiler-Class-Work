@@ -29,8 +29,8 @@ bool is_key(string s)
 int main()
 {
 
-    string s;
-    cin >> s;
+    string s = "";
+    //cin >> s;
     bool f =true;
     if(s[0] != '_' && !isalpha(s[0]) )
         f=false;
